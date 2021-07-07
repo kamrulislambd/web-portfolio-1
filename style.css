@@ -1,11 +1,16 @@
 body{
-    font-family: 'Poppins', sans-serif;
-    
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;    
 }
-.container{
-    width: 80%;
-    margin: 0 auto;
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
+section{
+    min-height: 500px;
+}
+
 .name-highlight{
     color: orange;
 }
@@ -15,14 +20,9 @@ p{
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 5px;
-    padding: 2px;
+    margin-left: 30px;
+    padding: 3px;
 }
 .half-width img{
     width: 100%;
-}
-input{
-    font-size: 20px;
-    font-weight: 300px;
-    color: goldenrod;
 }
