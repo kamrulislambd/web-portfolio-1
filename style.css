@@ -1,0 +1,28 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.name-highlight{
+    color: orange;
+}
+p{
+    text-align: justify;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5px;
+    padding: 2px;
+}
+.half-width img{
+    width: 100%;
+}
+input{
+    font-size: 20px;
+    font-weight: 300px;
+    color: goldenrod;
+}
