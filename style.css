@@ -9,6 +9,7 @@ body{
 }
 section{
     min-height: 500px;
+    padding-bottom: 150px;
 }
 
 .name-highlight{
@@ -24,5 +25,18 @@ p{
     padding: 3px;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, salmon, tomato);
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+a:hover{
+    background-image: linear-gradient(45deg, tomato, salmon);
+    color: whitesmoke;
 }
